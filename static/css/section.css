@@ -96,3 +96,84 @@ a p:nth-child(4), .experience-card p:nth-child(4){
 .projects-h2{
     text-align: center;
 }
+
+.add-project-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.new-project-section{
+    
+}
+
+
+
+/* Contact Section*/
+
+.contact-section{
+    padding-top: 1rem;
+}
+
+.contact-section form{
+    padding-top: 1.5rem;
+    background-color: var(--surface-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    padding: 20px 30px 10px 20px;
+    margin-top: 2rem;
+
+
+}
+
+.contact-section .field{
+    margin-bottom: 0.5rem;
+    width: 100%;
+
+}
+
+.contact-section .field label {
+    display: block;
+    color: var(--primary-color);
+}
+
+.contact-section .field input,
+.contact-section .field textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+/*button css*/
+
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: var(--neutral-color);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 36px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 45%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
